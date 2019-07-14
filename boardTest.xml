@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<board name="default">
+  <set name="Saloon">
+    <neighbors>
+      <neighbor name="office" />
+      <neighbor name="Saloon" />
+      <neighbor name="trailer" />
+    </neighbors>
+    <area x="632" y="280" h="115" w="205" />
+    <takes>
+      <take number="2"><area x="626" y="216" h="47" w="47" /></take>
+      <take number="1"><area x="679" y="216" h="47" w="47" /></take>
+    </takes>
+    <parts>
+      <part name="Reluctant Farmer" level="1">
+        <area x="877" y="352" h="46" w="46" />
+        <line>I ain't so sure about that!</line>
+      </part>
+      <part name="Woman in Red Dress" level="2">
+        <area x="877" y="276" h="46" w="46" />
+        <line>Come up and see me!</line>
+      </part>
+    </parts>
+  </set>
+  <trailer>
+    <neighbors>
+      <neighbor name="office" />
+      <neighbor name="Saloon" />
+      <neighbor name="trailer" />
+    </neighbors>
+    <area x="991" y="248" h="194" w="201" />
+  </trailer>
+  <office>
+    <neighbors>
+      <neighbor name="office" />
+      <neighbor name="Saloon" />
+      <neighbor name="trailer" />
+    </neighbors>
+    <area x="9" y="459" h="208" w="209" />
+    <upgrades>
+      <upgrade level="2" currency="dollar" amt="4" >
+        <area x="98" y="542" h="19" w="19" />
+      </upgrade>
+      <upgrade level="3" currency="dollar" amt="10">
+        <area x="98" y="564" h="19" w="19" />
+      </upgrade>
+      <upgrade level="4" currency="dollar" amt="18">
+        <area x="98" y="587" h="19" w="19" />
+      </upgrade>
+      <upgrade level="5" currency="dollar" amt="28">
+        <area x="98" y="609" h="19" w="19" />
+      </upgrade>
+      <upgrade level="6" currency="dollar" amt="40">
+        <area x="98" y="631" h="19" w="19" />
+      </upgrade>
+      <upgrade level="2" currency="credit" amt="5" >
+        <area x="147" y="542" h="19" w="19" />
+      </upgrade>
+      <upgrade level="3" currency="credit" amt="10">
+        <area x="147" y="564" h="19" w="19" />
+      </upgrade>
+      <upgrade level="4" currency="credit" amt="15">
+        <area x="147" y="587" h="19" w="19" />
+      </upgrade>
+      <upgrade level="5" currency="credit" amt="20">
+        <area x="147" y="609" h="19" w="19" />
+      </upgrade>
+      <upgrade level="6" currency="credit" amt="25">
+        <area x="147" y="631" h="19" w="19" />
+      </upgrade>
+    </upgrades>
+  </office>
+</board>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<cards>
+  <card name="Custer's Other Stands" img="40.png" budget="3">
+    <scene number="40">
+      General George Armstrong Custer clinches another victory at the battle of
+      Little Sands. His trusty steed Cairo is not so lucky.
+    </scene>
+    <part name="Farmer" level="2">
+      <area x="20" y="47" h="40" w="40" />
+      <line>Git off a that!</line>
+    </part>
+    <part name="Exploding Horse" level="4">
+      <area x="83" y="47" h="40" w="40" />
+      <line>Boom!</line>
+    </part>
+    <part name="Jack" level="6">
+      <area x="145" y="47" h="40" w="40" />
+      <line>Here we go again!"</line>
+    </part>
+  </card>
+</cards>
